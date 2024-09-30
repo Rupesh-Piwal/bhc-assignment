@@ -1,14 +1,9 @@
-import Header from "@/components/Header";
-import Sidebar from "@/components/Sidebar";
+import Dashboard from "@/components/Dashboard";
 
 export default function Home() {
   return (
-    <div className="flex w-full">
-      <Sidebar />
-      <div className="flex-1">
-        <Header />
-        <div className="bg-blue-300 h-full">Dashboard</div>
-      </div>
+    <div className="bg-[#f2f2f2] h-full">
+      <Dashboard />
     </div>
   );
 }

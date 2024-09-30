@@ -6,6 +6,9 @@ import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
+  // You can replace this with your actual notification count logic
+  const notificationCount = 3;
+
   return (
     <div className="text-[#26323C] h-[74px] flex flex-row items-center">
       <div className="min-w-[700px]">
@@ -19,7 +22,14 @@ const Header = () => {
         </div>
       </div>
       <div className="flex flex-row gap-6 items-center ml-auto px-[80px]">
-        <IoNotificationsOutline size={30} />
+        <div className="relative">
+          <IoNotificationsOutline size={30} />
+          {notificationCount > 0 && (
+            <span className="absolute -top-2 -right-1 bg-[#FF1B1B] text-white rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">
+              {notificationCount}
+            </span>
+          )}
+        </div>
         <IoIosHelpCircleOutline size={30} />
         <RxDividerVertical size={30} style={{ opacity: "50%" }} />
         <div className="flex flex-row gap-4 items-center">
