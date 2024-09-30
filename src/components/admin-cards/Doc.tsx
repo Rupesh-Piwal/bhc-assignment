@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import fax from "@/app/assets/openmoji_fax-machine_green.png";
 import maki from "@/app/assets/maki_doctor_org.png";
-import maki2 from "@/app/assets/maki_doctor_red.png";
 import maki3 from "@/app/assets/maki_doctor.png";
 
 const Doc = () => {

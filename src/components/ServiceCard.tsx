@@ -1,5 +1,5 @@
 // src/components/ServiceCard.tsx
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface ServiceCardProps {
   imageSrc: string | StaticImageData; // Update to accept both types
@@ -18,7 +18,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     <div className="service-card">
       {/* Displaying the image */}
       <div style={{ padding: imagePadding }}>
-        <img
+        <Image
           src={typeof imageSrc === "string" ? imageSrc : imageSrc.src}
           alt={label}
         />

@@ -24,18 +24,6 @@ import BarChart from "./charts/BarChart";
 import InsightCard from "./InsightCard";
 
 const Dashboard = () => {
-  // Sample data for the pie chart
-  const pieChartData = {
-    labels: ["Red", "Blue", "Yellow", "Green"],
-    datasets: [
-      {
-        label: "Votes",
-        data: [12, 19, 3, 5],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"],
-      },
-    ],
-  };
-
   return (
     <div className="px-[20px]">
       <div className="grid grid-cols-8 gap-3 pt-3">
