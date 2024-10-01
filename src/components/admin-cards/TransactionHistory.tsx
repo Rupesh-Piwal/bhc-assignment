@@ -42,7 +42,7 @@ const TransactionHistory = () => {
               ₹30,000
             </td>
             <td className="py-2">
-              <Badge className="bg-[#E2FFF5] text-[17px] text-[#45CFA0] py-1 px-4">
+              <Badge className="bg-[#E2FFF5] text-[17px] text-[#45CFA0] py-1 px-4 hover:bg-[#E2FFF5] hover:text-[#45CFA0]">
                 Success
               </Badge>
             </td>
@@ -61,7 +61,7 @@ const TransactionHistory = () => {
               ₹15,000
             </td>
             <td className="py-2">
-              <Badge className="bg-[#FFFFF0] text-[17px] text-[#AFA91D] py-1 px-4">
+              <Badge className="bg-[#FFFFF0] text-[17px] text-[#AFA91D] py-1 px-4 hover:text-[#AFA91D] hover:bg-[#FFFFF0]">
                 Pending
               </Badge>
             </td>
