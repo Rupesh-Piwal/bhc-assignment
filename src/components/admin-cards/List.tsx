@@ -1,6 +1,6 @@
 import Image from "next/image";
 import fax from "@/app/assets/openmoji_fax-machine_green.png";
-import dp from "@/app/assets/listpic.png";
+import Bessie from "@/app/assets/Bessie.png";
 import fax2 from "@/app/assets/openmoji_fax-machine (1).png";
 
 const List = () => {
@@ -26,7 +26,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -45,7 +51,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -64,7 +76,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -83,7 +101,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -102,7 +126,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -121,7 +151,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -140,7 +176,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
@@ -159,7 +201,13 @@ const List = () => {
             <p className="text-[#26323C] text-[12px] font-600">Location</p>
           </div>
           <div className="flex flex-row items-center gap-2">
-            <Image src={dp} alt="" width={36} height={36} />
+            <Image
+              className="rounded-full"
+              src={Bessie}
+              alt=""
+              width={36}
+              height={36}
+            />
             <p className="text-[#26323C] text-[15px] font-[400]">
               Bessie Cooper
             </p>
