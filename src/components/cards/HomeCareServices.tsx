@@ -1,4 +1,3 @@
-
 import { HomeCareService } from "@/types";
 import Image from "next/image";
 
@@ -14,7 +13,7 @@ const HomeCareServices: React.FC<HomeCareServicesProps> = ({ services }) => {
           Home-Care Services
         </h2>
 
-        <p className="text-right py-1 text-[#868686] text-[14px] font-[400] pr-3">
+        <p className="text-right py-1 text-[#868686] text-[14px] font-[400] pr-3 hover:text-blue-600 cursor-pointer">
           See more
         </p>
       </div>
