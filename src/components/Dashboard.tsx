@@ -1,11 +1,6 @@
 // src/components/Dashboard.tsx
 
-import {
-  tdmInfoData,
-  tdmServicesData,
-  doctorServicesData,
-  homeCareServicesData,
-} from "@/data/data"; // Ensure all relevant data is imported
+import { homeCareServicesData } from "@/data/data"; // Ensure all relevant data is imported
 import TdmServices from "./cards/TdmServices";
 import TdmInfo from "./cards/TdmInfo";
 import DoctorCard from "./cards/DoctorCard";
