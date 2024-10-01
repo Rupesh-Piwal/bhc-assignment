@@ -23,7 +23,7 @@ const TdmServices: React.FC<TdmServicesProps> = ({ services }) => {
                 typeof service.imageSrc === "string"
                   ? service.imageSrc
                   : service.imageSrc.src
-              } // Use the src property if it's StaticImageData
+              }
               alt={service.label}
               width={42}
               height={42}

@@ -1,32 +1,30 @@
-// TabComponent.tsx
 import * as React from "react";
 import { Tabs, Tab, Box } from "@mui/material";
 import { styled } from "@mui/system";
-import { Theme } from "@mui/material/styles"; // Import Theme type
+import { Theme } from "@mui/material/styles"; 
 
 const StyledTabs = styled(Tabs)({
   "& .MuiTabs-indicator": {
-    backgroundColor: "#3767B1", // Underline color for active tab
+    backgroundColor: "#3767B1", 
   },
 });
 
-// Define the props for StyledTab, including theme
 interface StyledTabProps {
   label: string;
-  theme?: Theme; // Optional theme prop for styled components
+  theme?: Theme; 
 }
 
-// Define props for the TabComponent, including onChange
+
 interface TabComponentProps {
-  onChange: (newValue: number) => void; // Define the onChange prop
+  onChange: (newValue: number) => void;
 }
 
 const StyledTab = styled(({ label, ...other }: StyledTabProps) => (
   <Tab {...other} label={label} />
 ))(({ theme }) => ({
-  textTransform: "none", // Avoid uppercase by default
+  textTransform: "none", 
   "&.Mui-selected": {
-    color: "#3767B1", // Color for active tab
+    color: "#3767B1", 
   },
 }));
 
@@ -35,7 +33,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ onChange }) => {
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
-    onChange(newValue); // Call the parent onChange function
+    onChange(newValue); 
   };
 
   return (

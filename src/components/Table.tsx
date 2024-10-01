@@ -91,7 +91,15 @@ const TableComponent = () => {
                   alt="Doctor"
                   className="rounded-full"
                 />
-                <span>{doctorNames[index]}</span>
+                <div className="flex flex-col">
+                  <p className="text-[#26323C] text-[14px]">
+                    {doctorNames[index]}
+                  </p>
+                  <p className="text-[#26323C] text-[12px]">
+                    <span className="font-[700]">General Physician</span>,
+                    MBBS,MD
+                  </p>
+                </div>
               </div>
             </TableCell>
             <TableCell className="py-3 text-[#53564E] text-[15px] font-[400]">

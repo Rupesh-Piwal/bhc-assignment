@@ -1,10 +1,8 @@
-// src/components/cards/TdmInfo.tsx
-
 import Image from "next/image";
-import { TdmService } from "@/types"; // Importing the TdmService type definition
+import { TdmService } from "@/types"; 
 
 interface TdmInfoProps {
-  services: TdmService[]; // Use the TdmService interface for props type
+  services: TdmService[]; 
 }
 
 const TdmInfo: React.FC<TdmInfoProps> = ({ services }) => {
@@ -31,7 +29,7 @@ const TdmInfo: React.FC<TdmInfoProps> = ({ services }) => {
                 typeof service.imageSrc === "string"
                   ? service.imageSrc
                   : service.imageSrc.src
-              } // Use the src property if it's StaticImageData
+              } 
               alt={service.label}
               width={42}
               height={42}

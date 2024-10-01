@@ -2,7 +2,7 @@
 import Image, { StaticImageData } from "next/image";
 
 interface ServiceCardProps {
-  imageSrc: string | StaticImageData; // Update to accept both types
+  imageSrc: string | StaticImageData; 
   value: string | number;
   label: string;
   imagePadding: string;
@@ -16,7 +16,6 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 }) => {
   return (
     <div className="service-card">
-      {/* Displaying the image */}
       <div style={{ padding: imagePadding }}>
         <Image
           src={typeof imageSrc === "string" ? imageSrc : imageSrc.src}

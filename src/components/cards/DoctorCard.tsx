@@ -1,10 +1,8 @@
-// src/components/cards/DoctorCard.tsx
-
-import { DoctorService } from "@/types"; // Importing the DoctorService type definition
+import { DoctorService } from "@/types"; 
 import Image from "next/image";
 
 interface DoctorCardProps {
-  services: DoctorService[]; // Use the DoctorService interface for props type
+  services: DoctorService[]; 
 }
 
 const DoctorCard: React.FC<DoctorCardProps> = ({ services }) => {

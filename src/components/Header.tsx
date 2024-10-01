@@ -6,7 +6,6 @@ import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
-  // You can replace this with your actual notification count logic
   const notificationCount = 3;
 
   return (

@@ -9,8 +9,6 @@ import InsightCard from "@/components/InsightCard";
 const Page = () => {
   return (
     <div className="flex flex-col ">
-      {" "}
-      {/* Adjusted margins for consistent spacing */}
       <div className="grid grid-cols-9 gap-4 p-6">
         <div className="col-span-2">
           <Tdm />
@@ -23,19 +21,14 @@ const Page = () => {
         </div>
       </div>
       <div className="grid grid-cols-9 gap-3 p-6">
-        {" "}
-        {/* Added padding for the second grid */}
         <div className="border border-[#E6E6E6] h-[680px] col-span-3 bg-[#ffffff] rounded-[35px] shadow-sm">
           <List />
         </div>
         <div className="col-span-4 flex flex-col gap-4">
-          {" "}
-          {/* Added flex and gap for spacing */}
           <InsightCard />
           <div className="text-lg font-bold text-center">
             <TransactionHistory />
-          </div>{" "}
-          {/* Center aligned */}
+          </div>
         </div>
         <div className="col-span-2 bg-[#ffffff] border border-[#D7D7D7] rounded-[35px] flex items-center justify-center h-[396px]">
           <Export />

@@ -1,10 +1,9 @@
-// src/components/cards/HomeCareServices.tsx
 
-import { HomeCareService } from "@/types"; // Importing the HomeCareService type definition
+import { HomeCareService } from "@/types";
 import Image from "next/image";
 
 interface HomeCareServicesProps {
-  services: HomeCareService[]; // Use the HomeCareService interface for props type
+  services: HomeCareService[];
 }
 
 const HomeCareServices: React.FC<HomeCareServicesProps> = ({ services }) => {

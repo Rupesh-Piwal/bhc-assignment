@@ -22,7 +22,6 @@ ChartJS.register(
 );
 
 const WavesChart = () => {
-  // Sample data for the waves chart
   const data = {
     labels: [
       "May",
@@ -45,7 +44,7 @@ const WavesChart = () => {
         borderColor: "#44D002",
         backgroundColor: "rgba(75, 192, 192, 0.2)",
         tension: 0.4,
-        pointRadius: 0, // Hide the dots
+        pointRadius: 0, 
       },
     ],
   };
@@ -63,13 +62,13 @@ const WavesChart = () => {
       },
       x: {
         grid: {
-          display: false, // Hide vertical grid lines
+          display: false, 
         },
       },
     },
     plugins: {
       legend: {
-        display: false, // Disable the legend
+        display: false, 
       },
     },
   };

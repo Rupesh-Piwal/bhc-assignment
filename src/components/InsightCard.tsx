@@ -39,9 +39,7 @@ const InsightCard = () => {
         </div>
       </div>
       <div className="flex flex-row justify-between mt-5">
-        {" "}
-        {/* Flex for columns */}
-        {/* First Column */}
+
         <div className="flex flex-col gap-5 mx-[20px]">
           <div className="flex flex-col items-start">
             <p className="text-[#53564E] text-[16px] font-[400]">
@@ -62,7 +60,6 @@ const InsightCard = () => {
             </p>
           </div>
         </div>
-        {/* Second Column */}
         <div className="flex flex-col gap-5 mx-[20px]">
           <div className="flex flex-col items-start">
             <p className="text-[#53564E] text-[16px] font-[400]">
@@ -83,7 +80,6 @@ const InsightCard = () => {
             </p>
           </div>
         </div>
-        {/* Third Column */}
         <div className="flex flex-col gap-5 mx-[20px]">
           <div className="flex flex-col items-start">
             <p className="text-[#53564E] text-[16px] font-[400]">

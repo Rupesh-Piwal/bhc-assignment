@@ -72,7 +72,7 @@ const ThreeWavesChart = () => {
     responsive: true,
     plugins: {
       legend: {
-        display: false, // Show legend to distinguish between the waves
+        display: false, 
       },
     },
     scales: {
@@ -86,7 +86,7 @@ const ThreeWavesChart = () => {
       },
       x: {
         grid: {
-          display: false, // Hide vertical grid lines
+          display: false, 
         },
       },
     },

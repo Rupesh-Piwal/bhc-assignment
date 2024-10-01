@@ -66,7 +66,6 @@ const TransactionHistory = () => {
               </Badge>
             </td>
           </tr>
-          {/* Add more rows as needed */}
         </tbody>
       </table>
     </div>
