@@ -1,19 +1,18 @@
 import * as React from "react";
 import { Tabs, Tab, Box } from "@mui/material";
 import { styled } from "@mui/system";
-import { Theme } from "@mui/material/styles"; 
+import { Theme } from "@mui/material/styles";
 
 const StyledTabs = styled(Tabs)({
   "& .MuiTabs-indicator": {
-    backgroundColor: "#3767B1", 
+    backgroundColor: "#3767B1",
   },
 });
 
 interface StyledTabProps {
   label: string;
-  theme?: Theme; 
+  theme?: Theme;
 }
-
 
 interface TabComponentProps {
   onChange: (newValue: number) => void;
@@ -21,10 +20,10 @@ interface TabComponentProps {
 
 const StyledTab = styled(({ label, ...other }: StyledTabProps) => (
   <Tab {...other} label={label} />
-))(({ theme }) => ({
-  textTransform: "none", 
+))(() => ({
+  textTransform: "none",
   "&.Mui-selected": {
-    color: "#3767B1", 
+    color: "#3767B1",
   },
 }));
 
@@ -33,7 +32,7 @@ const TabComponent: React.FC<TabComponentProps> = ({ onChange }) => {
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
-    onChange(newValue); 
+    onChange(newValue);
   };
 
   return (

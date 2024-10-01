@@ -43,7 +43,7 @@ const doctorNames = [
 ];
 
 const TableComponent = () => {
-  const getImageForRow = (index: any) => {
+  const getImageForRow = (index: number) => {
     if (index === 1) return Kristin;
     if (index === 2) return cameron;
     return Bessie;
