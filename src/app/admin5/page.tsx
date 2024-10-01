@@ -8,7 +8,7 @@ import InsightCard from "@/components/InsightCard";
 
 const Page = () => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col bg-[#ffffff] ">
       <div className="grid grid-cols-9 gap-4 p-6">
         <div className="col-span-2">
           <Tdm />
@@ -21,7 +21,7 @@ const Page = () => {
         </div>
       </div>
       <div className="grid grid-cols-9 gap-3 p-6">
-        <div className="border border-[#E6E6E6] h-[680px] col-span-3 bg-[#ffffff] rounded-[35px] shadow-sm">
+        <div className="border border-[#E6E6E6] h-[680px] col-span-3 bg-[#ffffff] rounded-[35px] shadow-md">
           <List />
         </div>
         <div className="col-span-4 flex flex-col gap-4">
@@ -30,7 +30,7 @@ const Page = () => {
             <TransactionHistory />
           </div>
         </div>
-        <div className="col-span-2 bg-[#ffffff] border border-[#D7D7D7] rounded-[35px] flex items-center justify-center h-[396px]">
+        <div className="col-span-2 bg-[#ffffff] border border-[#D7D7D7] rounded-[35px] flex items-center justify-center h-[396px] shadow-md">
           <Export />
         </div>
       </div>

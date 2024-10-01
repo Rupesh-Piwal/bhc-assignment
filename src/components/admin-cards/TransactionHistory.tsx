@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"; // Adjust the import according to
 
 const TransactionHistory = () => {
   return (
-    <div className="p-4 bg-[#ffffff] rounded-[26px] border-[#DBDBDB] shadow-sm">
+    <div className="p-4 bg-[#ffffff] rounded-[26px] border-[#DBDBDB] shadow-md">
       <h2 className="text-[#26323C] text-[18px] font-[700] text-left">
         Transaction History
       </h2>

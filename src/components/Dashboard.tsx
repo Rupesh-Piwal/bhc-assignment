@@ -28,11 +28,11 @@ const Dashboard = () => {
     <div className="px-[20px]">
       <div className="grid grid-cols-8 gap-3 pt-3">
         <div className="col-span-3 h-full">
-          <TdmServices services={tdmServicesData} />
-          <TdmInfo services={tdmInfoData} />
+          <TdmServices />
+          <TdmInfo />
         </div>
         <div className="col-span-3 h-full">
-          <DoctorCard services={doctorServicesData} />
+          <DoctorCard />
           <HomeCareServices services={homeCareServicesData} />
         </div>
         <div className="bg-[#ffffff] rounded-[24px] col-span-2 px-4 h-full border border-[#D3D3D3]">
@@ -55,8 +55,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Patient Acquisition Section */}
-      <div className="grid grid-cols-2 gap-3 h-[350px] pt-5">
+      <div className="grid grid-cols-2 gap-3 h-[350px] pt-5 mb-[40px]">
         <div className="bg-[#ffffff] rounded-[35px] border border-[#D3D3D3] py-4 px-[20px] flex flex-col items-center">
           <div className="flex flex-row item-center gap-[5px] justify-between py-2 mb-2">
             <h2 className="text-[17px] text-[#26323C] font-[700]">
@@ -80,7 +79,6 @@ const Dashboard = () => {
               </span>
             </div>
           </div>
-          {/* Waves Chart */}
           <div className="h-64 w-full flex justify-center items-center">
             <WavesChart />
           </div>

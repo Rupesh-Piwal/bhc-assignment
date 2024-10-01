@@ -9,7 +9,7 @@ const Header = () => {
   const notificationCount = 3;
 
   return (
-    <div className="text-[#26323C] h-[74px] flex flex-row items-center">
+    <div className="text-[#26323C] h-[74px] flex flex-row items-center border shadow-2xl">
       <div className="min-w-[700px]">
         <div className="flex flex-row items-center gap-2 px-[40px]">
           <CiSearch size={28} style={{ opacity: "50%" }} />

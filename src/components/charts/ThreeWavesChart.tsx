@@ -39,7 +39,7 @@ const ThreeWavesChart = () => {
     ],
     datasets: [
       {
-        label: "Wave 1",
+        label: "Total",
         data: [0, 42, 22, 84, 65, 96, 42, 58, 34, 80, 0, 100],
         fill: true,
         borderColor: "#3767B1",
@@ -48,7 +48,7 @@ const ThreeWavesChart = () => {
         pointRadius: 0,
       },
       {
-        label: "Wave 2",
+        label: "TDM",
         data: [16, 65, 38, 105, 82, 119, 65, 81, 55, 95, 17, 120],
         fill: true,
         borderColor: "#FF9F6A",
@@ -57,7 +57,7 @@ const ThreeWavesChart = () => {
         pointRadius: 0,
       },
       {
-        label: "Wave 3",
+        label: "Homecare Services",
         data: [40, 80, 65, 115, 93, 126, 77, 93, 69, 110, 42, 113],
         fill: true,
         borderColor: "#4FD312",
@@ -72,7 +72,7 @@ const ThreeWavesChart = () => {
     responsive: true,
     plugins: {
       legend: {
-        display: false, 
+        display: false,
       },
     },
     scales: {
@@ -86,13 +86,30 @@ const ThreeWavesChart = () => {
       },
       x: {
         grid: {
-          display: false, 
+          display: false,
         },
       },
     },
   };
 
-  return <Line data={data} options={options} />;
+  return (
+    <div>
+      <Line data={data} options={options} />
+      <div className="flex justify-center mt-4 space-x-6">
+        {data.datasets.map((dataset, index) => (
+          <div key={index} className="flex items-center space-x-2">
+            <span
+              className="inline-block w-3 h-3 rounded-full"
+              style={{ backgroundColor: dataset.borderColor }}
+            ></span>
+            <span className="text-[#26323C] font-[400] text-[14px]">
+              {dataset.label}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default ThreeWavesChart;

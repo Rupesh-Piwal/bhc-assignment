@@ -8,7 +8,7 @@ import {
 
 const InsightCard = () => {
   return (
-    <div className="bg-white rounded-[24px] border border-[#DFDFDF] shadow-md p-2">
+    <div className="bg-white rounded-[24px] border border-[#DFDFDF] shadow-md p-4">
       <div className="flex flex-row items-center py-3  justify-between">
         <Select>
           <SelectTrigger className="w-[145px]">

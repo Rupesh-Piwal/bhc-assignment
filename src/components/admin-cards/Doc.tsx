@@ -5,7 +5,7 @@ import maki3 from "@/app/assets/maki_doctor.png";
 
 const Doc = () => {
   return (
-    <div className=" bg-[#ffffff] shadow-sm border border-[#E6E6E6] py-5 px-8 rounded-[35px]">
+    <div className=" bg-[#ffffff] shadow-md border border-[#E6E6E6] py-5 px-8 rounded-[35px]">
       <h2 className="text-[#26323C] text-[18px] font-[700]">Doctor</h2>
       <div className="flex flex-row items-center justify-center gap-[60px] py-1">
         <div>

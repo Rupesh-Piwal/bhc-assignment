@@ -5,7 +5,7 @@ import fax2 from "@/app/assets/openmoji_fax-machine_green.png";
 
 const Tdm = () => {
   return (
-    <div className="border bg-[#ffffff] shadow-sm border-[#E6E6E6] py-5 px-8 rounded-[35px]">
+    <div className="border bg-[#ffffff] shadow-md border-[#E6E6E6] py-5 px-8 rounded-[35px]">
       <h2 className="text-[#26323C] text-[18px] font-[700]">TDM Information</h2>
       <div className="flex flex-row items-center justify-center  gap-[30px] py-1">
         <div className="flex flex-col items-center">
