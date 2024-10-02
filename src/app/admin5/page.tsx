@@ -8,7 +8,7 @@ import InsightCard from "@/components/InsightCard";
 
 const Page = () => {
   return (
-    <div className="flex flex-col bg-[#ffffff] ">
+    <div className="flex flex-col bg-[#FAFBFF] ">
       <div className="grid grid-cols-9 gap-4 p-6">
         <div className="col-span-2">
           <Tdm />
